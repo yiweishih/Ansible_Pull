@@ -3,6 +3,6 @@
   become: true
 
   tasks:
-  - name: Install htop
+  - name: Install wget
     yum:
-      name: htop
+      name: wget

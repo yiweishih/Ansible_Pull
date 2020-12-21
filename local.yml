@@ -1,1 +1,8 @@
-this is a test file to let Ansible know 
+- hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+  - name: Install htop
+    yum:
+      name: htop
